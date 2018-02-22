@@ -3,7 +3,7 @@ const Discord = require('discord.js')
 const bot = new Discord.Client()
 
 bot.on("ready", function() {
-    bot.user.setGame("TutoBot, g-help");
+    bot.user.setGame("GHETARA / g-help");
     console.log("Le bot a bien ete connecte");
 });
 
